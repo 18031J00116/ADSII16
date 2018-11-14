@@ -63,13 +63,11 @@ class Graph {
 	 Scanner sc = new Scanner(System.in);
 	 int t= Integer.parseInt(sc.nextLine());
 	 int t1= Integer.parseInt(sc.nextLine());
-	 System.out.println(t+"   "+t1);
      Graph g = new Graph(t); 
      String s[] = new String[2];
      for(int i=0;i<t1;i++)
      {
     	String str = sc.nextLine();
-    	System.out.println(str);
     	if(!str.equals(""))
     	 s = str.split(" ");	
     	int v= Integer.parseInt(s[0]);
