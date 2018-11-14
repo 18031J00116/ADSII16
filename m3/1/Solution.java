@@ -66,7 +66,7 @@ class Graph {
 	 System.out.println(t+"   "+t1);
      Graph g = new Graph(t); 
      String s[] = new String[2];
-     for(int i=0;i<=t1;i++)
+     for(int i=0;i<t1;i++)
      {
     	String str = sc.nextLine();
     	System.out.println(str);
