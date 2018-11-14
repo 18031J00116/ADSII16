@@ -1,0 +1,4 @@
+[master d3fce86] "ads2_m3_a1_1: 8/8 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+ rewrite m3/1/result/score.json (81%)
+fatal: unable to access 'https://github.com/18031J00116/ADSII16.git/': Could not resolve host: github.com
