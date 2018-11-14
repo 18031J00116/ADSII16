@@ -70,8 +70,7 @@ class Graph {
      {
     	String str = sc.nextLine();
     	System.out.println(str);
-    	if(!s.equals(""))
-    		if(!str.equals(""))
+    	if(!str.equals(""))
     	 s = str.split(" ");	
     	int v= Integer.parseInt(s[0]);
     	int v1=Integer.parseInt(s[1]);
